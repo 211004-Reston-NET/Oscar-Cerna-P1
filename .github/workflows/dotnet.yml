@@ -76,19 +76,20 @@ jobs:
       with: 
           name: StoreWebUI
           path: publish
-          
-    deploy: 
-       run-on: windows-latest
-       needs: build 
-       enviornments: 
-            name: 'Production'
-            url: $${{steps.deploy-to-webapp.output.webapp-url}}
-            
-     steps: 
+                        
+  deploy:
+    runs-on: windows-latest
+    needs: build
+    environment:
+      name: 'Production'
+      url: $${{steps.deploy-to-webapp.output.webapp-url}}
+    
+    steps:
     - name: Deploy
       uses: azure/webapps-deploy@v2
       with:
-        app-name: StoreOZ
+        app-name: StoreOz
+        slot-name: 'Production'
         publish-profile: ${{secrets.AZURE_WEBAPP_PUBLISH_PROFILE}}
         package: publish
 
