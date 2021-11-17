@@ -132,11 +132,6 @@ namespace DataAccess
 
         //INVENTORY
 
-        public Inventory AddInventory(Inventory p_inv)
-        {
-            throw new NotImplementedException();
-        }
-
         public List<Inventory> GetAllInventory()
         {
             var result = (from product in _context.Products
@@ -216,10 +211,9 @@ namespace DataAccess
             return listOfInventory;
         }
         public Inventory GetInventoryById(int p_id)
-
         {
             return _context.Inventory.Where(inv => inv.InventoryId == p_id)
-                                      .SingleOrDefault();
+                                     .SingleOrDefault();
         }
         public Inventory GetInventoryByProductId(int p_id)
         {

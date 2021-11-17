@@ -118,14 +118,6 @@ namespace DataAccess
         //INVENTORY
 
         /// <summary>
-        /// Method will add new Inventory to the db
-        /// </summary>
-        /// <param name="p_inv"> This is the Inventory being added </param>
-        /// <returns> Return the Invent being added </returns>
-        Inventory AddInventory(Inventory p_inv);
-
-
-        /// <summary>
         ///  This will return a list of Inventory from the db.
         /// <returns> will return a list of Inventory. </returns>
         List<Inventory> GetAllInventory();

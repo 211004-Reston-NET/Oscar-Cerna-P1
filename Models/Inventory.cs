@@ -2,6 +2,7 @@ namespace Models
 {
     public class Inventory 
     {
+
         public int InventoryId { get; set; }
         public int ProductId { get; set; }
         public int StoreId { get; set; }
@@ -15,7 +16,7 @@ namespace Models
         
         public override string ToString()
         {
-            return $"ProductID: {ProductId}\n StoreID: {StoreId}\nQuantity: {Quantity}";
+            return $"Inventory: {InventoryId}ProductID: {ProductId}\n StoreID: {StoreId}\nQuantity: {Quantity}";
         }
     }
 }
