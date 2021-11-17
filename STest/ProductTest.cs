@@ -12,7 +12,7 @@ namespace STest
         public ProductTest()
         {
             _options = new DbContextOptionsBuilder<StoreAppDatabaseContext>()
-                        .UseSqlite("Filename = Test.db").Options; //UseSqlLite() will create an inmemory database for Test.db
+                        .UseSqlite("Filename = ProductTest.db").Options; //UseSqlLite() will create an inmemory database for Test.db
                          Seed();
         }
 
