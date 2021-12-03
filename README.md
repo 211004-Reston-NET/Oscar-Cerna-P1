@@ -1,6 +1,6 @@
 # Project 1 - Store Manager Application
 
-This is an H1
+Description
 =============
 This application simulates a potential online store. You will be able to:
 <ul>
