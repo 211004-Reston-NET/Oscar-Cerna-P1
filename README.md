@@ -37,7 +37,7 @@ Technologies
 
 Contributors
 =============
-Oscar Cerna
+https://github.com/OzzyOzy "GitHub: Oscar Cerna"
 
 Links
 =============
