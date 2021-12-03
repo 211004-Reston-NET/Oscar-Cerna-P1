@@ -13,5 +13,5 @@ This application simulates a potential online store. You will be able to:
 <li>Replenish inventory of a given item at a store.</li>
 <li>View inventory at a given store</li>
 <li>Add products to the stores and database</li>
-<li>Search Store Locations <li>
-</ul>
+<li>Search Store Locations<li>
+
