@@ -1,4 +1,5 @@
 # Oscar-Cerna-P1
+
 This is an H1
 =============
 This application simulates a potential online store. You will be able to:
@@ -14,4 +15,7 @@ This application simulates a potential online store. You will be able to:
 <li>View inventory at a given store</li>
 <li>Add products to the stores and database</li>
 <li>Search Store Locations<li>
+</ul>
 
+This is an H1
+=============
