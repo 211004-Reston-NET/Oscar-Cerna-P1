@@ -17,5 +17,20 @@ This application simulates a potential online store. You will be able to:
 <li>Search Store Locations<li>
 </ul>
 
-This is an H1
+User Story
 =============
+As a client, I want to be able to view login As a client, I want to be able to view create an account As a client, I want to be able to view search products As a client, I want to be able to purchase items As a client, I want to be able to edit my profile As a client, I want to be able to view my order history As a manager, I want to be able to replenish inventory As a manager, I want to be able to add products to stores As a manager, I want to be able to add stores As a manager, I want to be able to view stores order history.
+
+Technologies
+=============
+<ul>
+<li>C#</li>
+<li>ASP.NET MVC Framework</li>
+<li>MS SQL</li>
+<li>Microsoft Azure</li>
+<li>ADO.Net Entity Framework</li>
+<li>LINQ</li>
+<li>CI/CD Pipeline</li>
+<li>SonarCloud Code Analysis</li>
+<li>Xunit</li>
+</ul>
