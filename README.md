@@ -34,3 +34,11 @@ Technologies
 <li>SonarCloud Code Analysis</li>
 <li>Xunit</li>
 </ul>
+
+Contributors
+=============
+Oscar Cerna
+
+Links
+=============
+http://example.com/ "GitHub Repository"
