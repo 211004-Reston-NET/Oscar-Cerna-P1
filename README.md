@@ -1,4 +1,4 @@
-# Oscar-Cerna-P1
+# Project 1 - Store Manager Application
 
 This is an H1
 =============
